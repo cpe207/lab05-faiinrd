@@ -1,6 +1,6 @@
 // assign interface/type to the function definition properly
 function findTopNames(students) {
-    var names = students1.filter(function (std) { return std.score > 8; }).map(function (std) { return std.name; });
+    var names = students.filter(function (std) { return std.score > 8; }).map(function (std) { return std.name; });
     return names;
 }
 // assign interface/type to the student1 object properly
