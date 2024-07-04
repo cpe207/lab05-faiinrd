@@ -1,11 +1,11 @@
 // define interface for Student object
-interface Students {
+interface Student {
   name: string,
   score: number,
 }
 
 // assign interface/type to the function definition properly
-function findTopNames(students: Students[]) {
+function findTopNames(students: Student[]) {
   const names = students1.filter((std) => std.score > 8).map((std) => std.name);
   return names;
 }
